@@ -1,9 +1,9 @@
-# fs-cache-stream
+# fs-cache-middleware
 
 A streaming cache for any filesystem 
 
 ```
-npm install fs-cache-stream
+npm install fs-cache-middleware
 ```
 
 Similar to [express-asset-file-cache-middleware](https://www.npmjs.com/package/express-asset-file-cache-middleware), but doesn't require express and supports streaming payloads.
@@ -12,7 +12,7 @@ Similar to [express-asset-file-cache-middleware](https://www.npmjs.com/package/e
 
 
 ```js
-const fileCacheMiddleware = require('./cache')
+const fileCacheMiddleware = require('fs-cache-middleware')
 ```
 
 function getAsset (url, params) {
