@@ -155,7 +155,7 @@ const middleWare = (module.exports = function (getAsset, options) {
         const asset = middleWare.decodeAssetCacheName(
           firstFile
         )
-        const contentType = asset.contentType
+        const contentType = asset[0]
 
         res.setHeader('Content-Type', contentType)
         res.setHeader('Content-Length', stats.size)
