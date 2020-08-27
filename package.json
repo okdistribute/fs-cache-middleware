@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/okdistribute/fs-cache-stream.git"
+    "url": "git+https://github.com/okdistribute/fs-cache-middleware.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/okdistribute/fs-cache-stream/issues"
+    "url": "https://github.com/okdistribute/fs-cache-middleware/issues"
   },
-  "homepage": "https://github.com/okdistribute/fs-cache-stream#readme",
+  "homepage": "https://github.com/okdistribute/fs-cache-middleware#readme",
   "dependencies": {
     "get-folder-size": "^2.0.1",
     "pump": "^3.0.0",

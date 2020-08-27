@@ -13,7 +13,6 @@ Similar to [express-asset-file-cache-middleware](https://www.npmjs.com/package/e
 
 ```js
 const fileCacheMiddleware = require('fs-cache-middleware')
-```
 
 function getAsset (url, params) {
   return {
@@ -39,3 +38,4 @@ http.createServer(funcrion (req, res) {
     }
   })
 }
+```
